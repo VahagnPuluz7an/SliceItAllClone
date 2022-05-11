@@ -16,6 +16,8 @@ public class Target : MonoBehaviour
             perfectTarget.SetActive(false);
             frontTarget.SetActive(true);
             backTarget.SetActive(true);
+            frontTarget.layer = 6;
+            backTarget.layer = 6;
             collider.enabled = false;
             impactFX.Play();
             audio.Play();

@@ -54,6 +54,7 @@ MonoBehaviour:
   backTarget: {fileID: 5502734578653876919}
   audio: {fileID: 871168053}
   collider: {fileID: 5502734579416890085}
+  impactFX: {fileID: 5005553181263419585}
 --- !u!135 &5502734579416890085
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -183,6 +184,18 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5938870917574211934, guid: f3b6bb6afa6fb204a975d4072705b4fe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5938870917574211934, guid: f3b6bb6afa6fb204a975d4072705b4fe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5938870917574211934, guid: f3b6bb6afa6fb204a975d4072705b4fe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5938870917574211934, guid: f3b6bb6afa6fb204a975d4072705b4fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -243,6 +256,11 @@ PrefabInstance:
 --- !u!4 &5005553181263419584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5938870917574211934, guid: f3b6bb6afa6fb204a975d4072705b4fe, type: 3}
+  m_PrefabInstance: {fileID: 1665302424390263198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &5005553181263419585 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5938870917574211935, guid: f3b6bb6afa6fb204a975d4072705b4fe, type: 3}
   m_PrefabInstance: {fileID: 1665302424390263198}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5502734577630305160
